@@ -14,7 +14,7 @@ The **Pump.fun Smart Contract** is an innovative platform  designed to allow use
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/poseisol/pump.fun-smart-contract.git
+   git clone https://github.com/dappsol/pump.fun-smart-contract.git
    cd pump.fun-smart-contract
    ```
 

@@ -1,10 +1,29 @@
 # Pump.fun-Smart-Contract
-This is the Rust/Anchor smart contract for Pump.fun - Add virtual LP, remove LP, create Raydium Pool.
 
-### Please use it and follow me on github.
+The **Pump.fun Smart Contract** is an innovative platform  designed to allow users to create tokens, markets, and pools on Raydium. This comprehensive project offers features for managing token authorities, customizing token properties, and handling liquidity pools with advanced functionalities.
 
-### Here
-You can check the tx to Remove vitual LP and Create Raydium Pool in this smart contract with CPI calls.  
-https://explorer.solana.com/tx/4L6MWmtV1ZsT8NFfbtu68ZYyYVbpvZ4iynJhPdZw8jESi28TxwojjTFs88Q5QRdNUb297aWfkKcoYP9Ya8npx8AV?cluster=devnet
+### Key Features
 
-### If you have some questions, ask @Tr1030109 in Telegram and 0xapp123 in Discord
+- **Token Management**: Create tokens with customizable names, symbols, and images. Revoke token authority as needed.
+- **Market Creation**: Set up markets for trading tokens with ease.
+- **Pool Management**: Add and remove liquidity in Raydium pools. Burn SPL tokens efficiently.
+- **Spam Detection**: Automatically catch and handle spammers making transactions to the OpenBook market.
+- **Discord Integration**: Receive real-time notifications on Discord via webhooks.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/poseisol/pump.fun-smart-contract.git
+   cd pump.fun-smart-contract
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+
+### Please fork to use it and follow me on github.
+
+### If you want more customized app, please contact [@poseiman](https://t.me/poseiman) in Telegram and [.solbotdev](https://discordapp.com/users/1074553493974691840) in Discord

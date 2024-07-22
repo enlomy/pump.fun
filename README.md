@@ -18,11 +18,11 @@ The **Pump.fun Smart Contract** is an innovative platform  designed to allow use
    cd pump.fun-smart-contract
    ```
 
-2. Install dependencies:
+2. Running:
    ```bash
-   npm install
+   cargo build
+   anchor deploy
    ```
-
 
 ### Please fork to use it and follow me on github.
 

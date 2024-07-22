@@ -1,12 +1,12 @@
 [package]
-name = "pump"
+name = "bonding_curve"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "pump"
+name = "bonding_curve"
 
 [features]
 no-entrypoint = []
@@ -18,4 +18,6 @@ default = []
 [dependencies]
 anchor-lang = { version="0.29.0", features = ["init-if-needed"] }
 anchor-spl = "0.29.0"
-raydium-contract-instructions = { git = "https://github.com/raydium-io/raydium-contract-instructions.git" }
+solana-program = "1.14.17"
+spl-token = "4.0.1"
+toml_datetime = "=0.6.1"

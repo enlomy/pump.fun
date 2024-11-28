@@ -2,7 +2,7 @@
 
 The **Pump.fun Smart Contract forking** is an innovative platform  designed to allow users to create tokens, markets, and pools on Raydium. This comprehensive project offers not only same features of pump.fun but also more for managing token authorities, customizing token properties, and handling liquidity pools with advanced functionalities.
 
-### Key Features
+### ✨ Features
 
 - **Token Management**: Create tokens with customizable names, symbols, and images. Revoke token authority as needed.
 - **Market Creation**: Set up markets for trading tokens with ease.
@@ -11,6 +11,10 @@ The **Pump.fun Smart Contract forking** is an innovative platform  designed to a
 - **Spam Detection**: Automatically catch and handle spammers making transactions to the OpenBook market.
 - **Discord Integration**: Receive real-time notifications on Discord via webhooks.
 
-### Please fork to use it and follow me on github.
+## 📞 Contact Info
 
-### If you want more customized app, please contact [@s0lb0t](https://t.me/s0lb0t) in Telegram and [.s0lb0t](https://discordapp.com/users/1074553493974691840) in Discord
+### Telegram: [enlomy](https://t.me/enlomy)
+
+## 🍵 Tip
+
+### If you are intereseted in my projects, please 🔗fork or give me ⭐star

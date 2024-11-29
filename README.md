@@ -1,4 +1,4 @@
-# 💊 Pump Fun Smart Contract
+# 💊 PumpFun Solana Smart Contract
 
 The **Pump.fun Smart Contract forking** is an innovative platform  designed to allow users to create tokens, markets, and pools on Raydium. This comprehensive project offers not only same features of pump.fun but also more for managing token authorities, customizing token properties, and handling liquidity pools with advanced functionalities.
 

@@ -56,25 +56,6 @@ describe("bonding_curve", () => {
     console.log("admin wallet balance : ", (await connection.getBalance(user.publicKey)) / 10 ** 9, "SOL")
   })
 
-  // it("Airdrop to user wallet", async () => {
-  //   console.log("Created a user, address is ", user2.publicKey.toBase58())
-  //   console.log(`Requesting airdrop for another user ${user.publicKey.toBase58()}`)
-  //   // 1 - Request Airdrop
-  //   const signature = await connection.requestAirdrop(
-  //     user2.publicKey,
-  //     10 ** 9
-  //   );
-  //   // 2 - Fetch the latest blockhash
-  //   const { blockhash, lastValidBlockHeight } = await connection.getLatestBlockhash();
-  //   // 3 - Confirm transaction success
-  //   await connection.confirmTransaction({
-  //     blockhash,
-  //     lastValidBlockHeight,
-  //     signature
-  //   }, 'finalized');
-  //   console.log("user balance : ", (await connection.getBalance(user.publicKey)) / 10 ** 9, "SOL")
-  // })
-
   it("Mint token1 to user wallet", async () => {
     console.log("Trying to create and mint token1 to user's wallet")
 
@@ -97,24 +78,6 @@ describe("bonding_curve", () => {
     }
 
   })
-
-  // it("Mint token 2 to user wallet", async () => {
-  //   console.log("Trying to create and mint token 2 to user's wallet")
-  //   try {
-  //     mint2 = await createMint(connection, user, user.publicKey, user.publicKey, tokenDecimal)
-  //     console.log('mint 2 address: ', mint2.toBase58());
-
-  //     tokenAta2 = (await getOrCreateAssociatedTokenAccount(connection, user, mint2, user.publicKey)).address
-  //     console.log('token 2 account address: ', tokenAta2.toBase58());
-
-  //     await mintTo(connection, user, mint2, tokenAta2, user.publicKey, BigInt(amount.toString()))
-  //     const tokenBalance = await connection.getTokenAccountBalance(tokenAta2)
-  //     console.log("token 2 Balance in user:", tokenBalance.value.uiAmount)
-  //     console.log('token 2 successfully minted');
-  //   } catch (error) {
-  //     console.log("Token 2 creation error \n", error)
-  //   }
-  // })
 
   it("Initialize the contract", async () => {
     try {
